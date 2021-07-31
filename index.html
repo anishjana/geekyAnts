@@ -103,6 +103,7 @@
 
         <script>
             $('#toggleThemeBtn').on('click', function(){
+                gsap.set('.login', {rotationY:0})
                 gsap.from('.login',0.4, {rotationY:180,delay: 0.05, ease:'power3.easeInOut'})
 
                 if($(this).is(':checked') == true){
