@@ -180,6 +180,11 @@ input.dark,
     color: rgba(255, 255, 255, 1) !important;
 }
 
+.form-control.dark::focus {
+     background-color: black !important
+}
+
+
 .social.dark {
     background: white
 }
